@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import "./App.scss";
-import Card from "./components/Card";
 import { API_URL } from "./constants";
 import Feed from "./components/Feed";
 
