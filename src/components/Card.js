@@ -12,7 +12,7 @@ export default function Card({ item }) {
   return (
     <div className="card">
       <div className="profile-section">
-        <img src={item?.picture?.medium} />
+        <img src={item?.picture?.medium} alt={`user-${item.login.username}`} />
         <div className="info">
           <p className="name">{nameString(item.name)}</p>
           <p className="email">{item.email}</p>
