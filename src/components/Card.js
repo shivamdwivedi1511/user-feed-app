@@ -28,8 +28,7 @@ export default function Card({ item }) {
           <p>Contact : {item.cell}</p> <p> Age : {item.dob.age}</p>
         </div>
         <div className="address-info">
-          <p className="address">Address : </p>
-          <p>{address(item.location)}</p>
+          <p className="address">Address : {address(item.location)}</p>
         </div>
       </div>
     </div>
